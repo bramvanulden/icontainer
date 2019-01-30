@@ -1,3 +1,27 @@
+button.btn {
+	background-color:black;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+  transition: 0.3s;
+}
+
+button.btn:hover {
+	background-color:white;
+  color:black;
+  border:1px solid black;
+}
+button.btn:active {
+	position:relative;
+	top:1px;
+}
+
 .button1 {
 	background-color:black;
 	border:1px solid white;
@@ -28,11 +52,11 @@
   display: inline-block;
 }
 
-h1 {
-  text-align: center;
-}
-
 body {
   background-color: black;
   text-align: center;
+}
+
+.status{
+	color: white;
 }

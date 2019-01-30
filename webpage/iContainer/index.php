@@ -8,9 +8,13 @@
         <?php
         if (isset($_SESSION['userId'])){
             echo '<p>Your are logged in!</p>';
+            header("Location: ../newhome.php");
+            exit();
         }
         else{
             echo '<p>Your are logged out!</p>';
+            header("Location: ../iContainer/hoofdpagina.php");
+            exit();
         }
         ?>
             </section>
